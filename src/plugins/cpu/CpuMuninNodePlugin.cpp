@@ -116,7 +116,7 @@ int CpuMuninNodePlugin::GetConfig(char *buffer, int len)
 {
   strncpy(buffer, 
     "graph_args -l 0 --vertical-label percent --upper-limit 100\n"
-    "graph_title Cpu usage\n"
+    "graph_title CPU usage\n"
     "graph_category system\n"
     "graph_info This graph shows what the machine uses its cpu for.\n"
     "graph_order cpu_user\n"

@@ -50,7 +50,7 @@ int DiskMuninNodePlugin::GetConfig(char *buffer, int len)
   int ret = 0;
   int index = 0;
 
-  ret = _snprintf(buffer, len, "graph_title Filesystem usage (in %%)\n"
+  ret = _snprintf(buffer, len, "graph_title Disk usage in percent\n"
     "graph_category disk\n"
     "graph_info This graph shows disk usage on the machine.\n"
     "graph_args --upper-limit 100 -l 0\n"
